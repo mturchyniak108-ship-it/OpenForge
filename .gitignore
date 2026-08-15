@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Secrets
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+id_rsa
+id_ed25519
+credentials.json
+secrets.json
+
+# Databases / local state
+*.db
+*.sqlite
+*.sqlite3
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AI / ML artifacts
+*.safetensors
+*.gguf
+*.bin
+*.onnx
+*.pt
+*.pth
+*.ckpt
+
+# Generated media
+*.mp4
+*.mkv
+*.mov
+*.wav
+*.flac
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
